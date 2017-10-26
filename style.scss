@@ -110,6 +110,7 @@ ul.todo {
         border-radius: 15px;
         position: relative;
         color: $dark-gray;
+        word-break: break-word;
         &:last-of-type {
             margin: 0;
         }

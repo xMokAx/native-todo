@@ -117,6 +117,7 @@ ul.todo li {
     color: #444;
     font-size: 1em;
     font-weight: 400;
+    word-break: break-word;
 }
 
 ul.todo li:last-of-type {
