@@ -4,38 +4,58 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Native Js Todo App</title>
-    <meta name="description" content="Simple todo list app using native javascript.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta
+      name="description"
+      content="Simple todo list app using native javascript."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <input type="text" id="addTodoInput" placeholder="Add something to do...">
-        <button id="add">
-            <svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="-69 -327 45 45" width="35" height="35">
-                <path d="M-29.156-303.416h-16.26v16.26h-2.168v-16.26h-16.26v-2.168h16.26v-16.26h2.168v16.26h16.26v2.168z" fill="#C1311E"
-                />
-                <path fill="none" d="M-69-327h45v45h-45z" />
-            </svg>
-        </button>
+      <input
+        type="text"
+        id="addTodoInput"
+        placeholder="Add something to do..."
+      />
+      <button id="add">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="isolation:isolate"
+          viewBox="-69 -327 45 45"
+          width="35"
+          height="35"
+        >
+          <path
+            d="M-29.156-303.416h-16.26v16.26h-2.168v-16.26h-16.26v-2.168h16.26v-16.26h2.168v16.26h16.26v2.168z"
+            fill="#C1311E"
+          />
+          <path fill="none" d="M-69-327h45v45h-45z" />
+        </svg>
+      </button>
     </header>
     <div class="container">
-        <ul class="todo" id="todoList"></ul>
-        <ul class="todo" id="completedList"></ul>
+      <ul class="todo" id="todoList"></ul>
+      <ul class="todo" id="completedList"></ul>
     </div>
-    <script src='es5.js'></script>
+    <script src="es6.js"></script>
     <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-</body>
-
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+  </body>
 </html>
