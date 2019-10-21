@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # native-todo
 
 simple todo app using native javascript
