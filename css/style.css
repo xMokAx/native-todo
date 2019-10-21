@@ -9,7 +9,7 @@ input {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+#todo-form {
   width: 100%;
   height: 80px;
   position: fixed;
@@ -21,7 +21,7 @@ header {
   border-bottom-left-radius: 15px;
   z-index: 5;
 }
-header input {
+#todo-form input {
   width: 100%;
   height: 100%;
   float: left;
@@ -37,28 +37,28 @@ header input {
   -moz-appearance: none;
   padding-right: 60px;
 }
-header input:-moz-placeholder {
+#todo-form input:-moz-placeholder {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
 }
-header input:-ms-input-placeholder {
+#todo-form input:-ms-input-placeholder {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
 }
-header input::-moz-placeholder {
+#todo-form input::-moz-placeholder {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
 }
-header input::-webkit-input-placeholder {
+#todo-form input::-webkit-input-placeholder {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
 }
 @media (hover: none) {
-  header input {
+  #todo-form input {
     outline: none;
   }
 }
-header button {
+#todo-form button {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -72,7 +72,7 @@ header button {
   cursor: pointer;
 }
 @media (hover: none) {
-  header button {
+  #todo-form button {
     outline: none;
   }
 }
